@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: rgb(230, 230, 230);
+  --ff: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+.mainSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+  height: 100%;
+  gap: 1rem;
+}
+.allBGImgs {
+  gap: 0.5rem;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.bgImg {
+  border-radius: 5px;
+  height: 100px;
+  cursor: pointer;
+  width: 100px;
+  object-fit: cover;
+  transition: 200ms;
+}
+.bgImg:hover {
+  box-shadow: 0 0 0 6px #24242479;
+}
+button {
+  padding: 0.4rem 1.5rem;
+  background-color: #e4e4e4;
+  font-family: var(--ff);
+  transition: 200ms;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: #c9c9c9;
+}

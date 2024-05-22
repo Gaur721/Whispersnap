@@ -1,0 +1,15 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "A simple image gallery app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
+

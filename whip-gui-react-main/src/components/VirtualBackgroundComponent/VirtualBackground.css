@@ -1,0 +1,16 @@
+.cameraComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputVideoElement {
+  position: absolute;
+  pointer-events: none;
+  display: none;
+  top: 0;
+  left: 0;
+}
+#outputVideo {
+  width: 100%;
+  aspect-ratio: 8/5;
+}
